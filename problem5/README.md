@@ -20,8 +20,8 @@ $ npm run dev
 
 ## API
 
-- API create: name, type, description, status
-- API list: allow filter by name, page and pageSize
-- API detail: id
-- API update: id, name, type, description, status
-- API delete: id
+- POST create /resources (name, type, description, status)
+- GET list /resources (allow filter by name, page and pageSize)
+- GET detail /resources/:id
+- PUT update /resources/:id
+- DELETE delete /resources/:id
